@@ -1,0 +1,23 @@
+name: Battleground
+author: Tanner Embry
+description: PvP Battleground with stats, rewards, and queues
+version: 0.2.6b
+softdepend: [TabAPI, TagAPI, ProtocolLib]
+main: com.snowgears.battleground.Battleground
+permissions:
+    battleground.operator:
+        description: Allows access to battleground operator commands
+        default: op
+    battleground.member:
+        description: Allows access to play in the battleground
+        default: op
+    battleground.allowflight:
+        description: Allows flying in the domination battleground
+        default: op
+    battleground.allowcreative:
+        description: Allows creative-mode in the domination battleground
+        default: op
+commands:
+   bg:
+      description: Base plugin command
+      usage: /<command>
