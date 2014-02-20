@@ -1,0 +1,9 @@
+# Eclipse stuff
+/.classpath
+/.project
+/.settings
+/bin
+/files
+
+# Mac filesystem dust
+.DS_Store
